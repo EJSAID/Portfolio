@@ -46,7 +46,7 @@ const Services = () => {
               </button>
             </div>
             {/* image1 */}
-         
+         <a href="https://alakhawaine.000webhostapp.com/" target="t_blank" >
             <div className="cursor-pointer group relative overflow-hidden border-2 border-white/50 rounded-xl"   >
        
               {/* overday */}
@@ -66,11 +66,11 @@ const Services = () => {
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white font-bold dark:text-white ">
-                  Cab Booking
+                  Restaurant Template
                 </span>
               </div>
             </div>
-           
+           </a>
           </motion.div>
           
           <motion.div
@@ -106,7 +106,7 @@ const Services = () => {
             </div>
           
             {/* image */}
-            <a href="https://iptvspotlight.com/">
+            <a href="https://iptvspotlight.com/" target="t_blank">
             <div className="  cursor-pointer group relative overflow-hidden border-2 border-white/50 rounded-xl" >
               {/* overday */} 
               <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
