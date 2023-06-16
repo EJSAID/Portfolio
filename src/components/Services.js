@@ -1,9 +1,10 @@
 
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import img1 from "../assets/cab.png";
-import img2 from "../assets/cv.png";
+import img1 from "../assets/resta.png";
+
  import img3 from "../assets/Screenshot_8.png";
+ import img4 from "../assets/cab.png";
 
 
 const Services = () => {
@@ -59,7 +60,7 @@ const Services = () => {
               {/* pretitive */}
               <div className="absolute placeholder:-bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <span className="dark:text-gradient text-white font-bold dark:text-white">
-                  JavaFX/Oracle
+                  HTML5/CSS3/JS
                 </span>
               </div>
               {/* title */}
@@ -87,13 +88,13 @@ const Services = () => {
               {/* image */}
               <img
                 className="bg-ww dark:bg-purple-950 p-16 group-hover:scale-125 transition-all duration-500"
-                src={img2}
+                src={img4}
                 alt=""
               />
               {/* pretitive */}
               <div className="absolute placeholder:-bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
                 <span className="dark:text-gradient text-white font-bold dark:text-white">
-                  HTML5/CSS3/PHP
+                  Java Fx/oracle DB
                 </span>
               </div>
               {/* title */}
