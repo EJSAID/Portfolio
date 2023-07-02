@@ -2,18 +2,23 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import img1 from "../assets/resta.png";
-
+import context from './Header'
  import img3 from "../assets/Screenshot_8.png";
  import img4 from "../assets/cab.png";
 
 
+
 const Services = () => {
+
+
 
   return (
     <section
       id="services"
       className="min-h-[85vh] lg:min-h-[78vh] flex items-center"
     >
+
+     
       <div className="  container mx-auto">
         <div className="flex flex-col lg:flex-row gap-x-10">
           <motion.div
@@ -100,7 +105,7 @@ const Services = () => {
               {/* title */}
               <div className="absolute  -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white font-bold dark:text-white ">
-                  CV Création
+                  Cab Booking
                 </span>
               </div>
             </div>
@@ -126,7 +131,7 @@ const Services = () => {
               {/* title */}
               <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
                 <span className="text-3xl text-white font-bold dark:text-white">
-                  E-commerce website
+                  E-commerce website IPTV
                 </span>
               
               </div>

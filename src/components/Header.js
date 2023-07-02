@@ -3,7 +3,6 @@ import {  useState, useEffect } from "react";
 import logo from "../assets/hi.png";
 
 
-
 const Header = () => {
   const [theme, setheme] = useState("dark");
 
@@ -25,7 +24,7 @@ const Header = () => {
   };
 
   return (
-  
+
     <div className="container mx-auto ">
       <div className="flex justify-between items-center px-9 pt-5">
         <a href="#">
@@ -47,7 +46,7 @@ const Header = () => {
       </div>
   
       </div>
-    
+     
 
   );
 };
