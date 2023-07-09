@@ -8,6 +8,7 @@ import About from "./components/About";
 import Services from "./components/Services";
 import Contact from "./components/Contact";
 import PortfolioFooter from "./components/footer";
+import Skills  from "./components/Skills";
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
       <Banner />
       <Nav />
       <About />
+      <Skills/>
       <Services />
       <Contact />
       <PortfolioFooter />

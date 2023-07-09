@@ -21,7 +21,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-qq dark:text-white text-sm leading-[0.8] lg:text-[110px] font-semibold mb-6"
+              className="text-qq dark:text-white text-sm leading-[0.8] text-[100px] font-semibold mb-6"
             >
               Ej jammaa<span>Said</span>
             </motion.h1>
@@ -58,8 +58,7 @@ const Banner = () => {
               viewport={{ once: false, amount: 0.7 }}
               className="mb-8 max-w-lg mx-auto lg:mx-0 font-secondary font-semibold text-white text-[20px] text-justify"
             >
-              "My name is Ej Jammaa Said and I am 21 years old. I am currently
-              pursuing a University Diploma in Computer Engineering."
+              My name is Ej Jammaa Said, a passionate and skilled 21-year-old web developer, dedicated to creating innovative and user-friendly websites.
             </motion.p>
             <motion.div
               variants={fadeIn("up", 0.7)}

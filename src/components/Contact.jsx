@@ -31,7 +31,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_g7vclny",
-        "template_vxjwiw8",
+        "template_jcaz98a",
         form.current,
         "yVkI9W5o08BIJFutr"
       )
@@ -53,7 +53,7 @@ const Contact = () => {
 
   return (
     <section
-      
+      id="contact"
       className="py-16  lg:py-24 lg:h-screen flex items-center"
     >
       <div className="container mx-auto">

@@ -2,7 +2,6 @@
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 import img1 from "../assets/resta.png";
-import context from './Header'
  import img3 from "../assets/Screenshot_8.png";
  import img4 from "../assets/cab.png";
 
@@ -30,14 +29,12 @@ const Services = () => {
           >
             {/* text */}
             <div>
-              <h2 className="h2 leading-tight text-yy dark:text-accent text-[36px] lg:text-[60px] font-secondary font-semibold">
-                My Latest <br />
+              <h2 className="h2 pb-4 leading-tight text-yy dark:text-accent text-[36px] lg:text-[60px] font-secondary font-semibold">
+                My Latest 
                 work
               </h2>
-              <p className="max-w-sm mb-16  font-secondary text-[20px] font-bold text-white dark:text-white text-justify">
-                "These projects showcase my proficiency in various web
-                development technologies and my ability to create high-quality,
-                user-friendly applications."
+              <p className="max-w-sm mb-12  font-secondary text-[20px] font-bold text-white dark:text-white text-justify">
+              These projects are a testament to my expertise in cutting-edge web development technologies and my aptitude for crafting exceptional, intuitive applications that prioritize user experience.
               </p>
               <button className=" h-[56px] px-10 text-base text-white hover:text-black bg-yy  hover:bg-qq  dark:bg-gradient-to-r dark:from-pink-500 dark:via-purple-600 dark:to-blue-500 dark:hover:from-[#FF56F6] dark:hover:to-[#42A6E3] shadow-md rounded-full font-primary  font-medium ">
                 <a
@@ -45,20 +42,21 @@ const Services = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  {" "}
+                 
                   View all projects
                 </a>
               </button>
             </div>
-            {/* image1 */}
-         <a href="https://alakhawaine.000webhostapp.com/" target="t_blank" >
-            <div className="cursor-pointer group relative overflow-hidden border-2 border-white/50 rounded-xl"   >
+
+            {/* restaurant  */}
+         <a href="https://alakhawaine.000webhostapp.com/" target="t_blank">
+            <div className="cursor-pointer group  relative overflow-hidden border-2 border-white/50 rounded-xl"   >
        
               {/* overday */}
               <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
               {/* image */}
               <img
-                className="bg-ww dark:bg-purple-950 group-hover:scale-125 transition-all duration-500"
+                className="bg-ww dark:bg-purple-950  group-hover:scale-125 transition-all duration-500"
                 src={img1}
                 alt=""
               />
@@ -76,6 +74,32 @@ const Services = () => {
               </div>
             </div>
            </a>
+                 {/* restaurant  */}
+         <a href="https://alakhawaine.000webhostapp.com/" target="t_blank">
+            <div className="cursor-pointer group relative overflow-hidden border-2 border-white/50 rounded-xl"   >
+       
+              {/* overday */}
+              <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              {/* image */}
+              <img
+                className="group-hover:scale-125 transition-all duration-500  rounded-lg overflow-hidden"
+                src={img1}
+                alt=""
+              />
+              {/* pretitive */}
+              <div className="absolute placeholder:-bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="dark:text-gradient text-white font-bold dark:text-white">
+                  HTML5/CSS3/JS
+                </span>
+              </div>
+              {/* title */}
+              <div className="absolute -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <span className="text-3xl text-white font-bold dark:text-white">
+                  Restaurant Template
+                </span>
+              </div>
+            </div>
+           </a>
           </motion.div>
           
           <motion.div
@@ -83,44 +107,21 @@ const Services = () => {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.3 }}
-            className="flex-1  flex flex-col gap-y-12"
-          >
-            {/* image */}
-         
-            <div className=" group relative overflow-hidden border-2 border-white/50 rounded-xl cursor-pointer" >
-              {/* overday */}
-              <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
-              {/* image */}
-              <img
-                className="bg-ww dark:bg-purple-950 p-16 group-hover:scale-125 transition-all duration-500"
-                src={img4}
-                alt=""
-              />
-              {/* pretitive */}
-              <div className="absolute placeholder:-bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
-                <span className="dark:text-gradient text-white font-bold dark:text-white">
-                  Java Fx/oracle DB
-                </span>
-              </div>
-              {/* title */}
-              <div className="absolute  -bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
-                <span className="text-3xl text-white font-bold dark:text-white ">
-                  Cab Booking
-                </span>
-              </div>
-            </div>
+            className="flex-1  flex flex-col gap-y-12"  >
           
-            {/* image */}
-            <a href="https://iptvspotlight.com/" target="t_blank">
+            {/* iptv */} 
+
+            <a href="https://iptvspotlight.com/" target="t_blank" className="pt-8">
             <div className="  cursor-pointer group relative overflow-hidden border-2 border-white/50 rounded-xl" >
-              {/* overday */} 
+             
               <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+
               {/* image */}
              <img
-       src={img3}
-          className="group-hover:scale-125 transition-all duration-500  rounded-lg overflow-hidden"
-          alt=""
-        />  
+                src={img3}
+                className="group-hover:scale-125 transition-all duration-500  rounded-lg overflow-hidden"
+                alt=""
+              />  
 
               {/* pretitive */}
               <div className="absolute placeholder:-bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
@@ -138,7 +139,30 @@ const Services = () => {
              
            </div>
            </a>
-
+     {/* taxi*/}
+         
+     <div className=" group relative overflow-hidden border-2 border-white/50 rounded-xl cursor-pointer" >
+              {/* overday */}
+              <div className=" group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300"></div>
+              {/* image */}
+              <img
+                className="bg-ww dark:bg-purple-950 p-10 group-hover:scale-125 transition-all duration-500"
+                src={img4}
+                alt=""
+              />
+             
+              <div className="absolute placeholder:-bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50">
+                <span className="dark:text-gradient text-white font-bold dark:text-white">
+                  Java Fx/oracle DB
+                </span>
+              </div>
+              {/* title */}
+              <div className="absolute  placeholder:-bottom-full left-12 group-hover:bottom-14 transition-all duration-700 z-50">
+                <span className="text-3xl text-white font-bold dark:text-white ">
+                  Cab Booking
+                </span>
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>

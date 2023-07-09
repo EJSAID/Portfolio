@@ -6,7 +6,8 @@ import {TbSocial} from 'react-icons/tb';
 
 export default function PortfolioFooter() {
   return (
-    <div className="bg-black py-12 cursor-pointer" id="contact" > 
+    
+    <section id="footer" className="bg-black pt-5 pb-32 lg:py-12 lg:pb-32 cursor-pointer " > 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
           <div className="block bg-gray-800 border border-gray-700 rounded-lg shadow hover:bg-gray-700 ">
@@ -68,10 +69,10 @@ export default function PortfolioFooter() {
           </div>
         </div>
       </div>
-      <div className="mt-16 text-gray-400 text-left ml-16 font-semibold">
+      <div className="mt-16 text-gray-400 text-center  font-semibold">
           <p>&copy; 2023 EJSaid. All rights reserved.</p></div>
        
-    </div>
+    </section>
     
   );
 }
