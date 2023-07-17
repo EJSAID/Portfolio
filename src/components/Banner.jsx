@@ -21,7 +21,7 @@ const Banner = () => {
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
-              className="text-qq dark:text-white text-sm leading-[0.8] text-[100px] font-semibold mb-6"
+              className="text-qq dark:text-white text-sm leading-[0.8] text-[100px] sm:text-[110px] font-semibold mb-6"
             >
               Ej jammaa<span>Said</span>
             </motion.h1>

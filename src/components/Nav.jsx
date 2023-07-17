@@ -28,7 +28,7 @@ const Nav = () => {
           >
             <BiUser />
           </Link>
-          <Link
+          {/* <Link
             to="skills"
             activeClass="active"
             smooth={true}
@@ -36,7 +36,7 @@ const Nav = () => {
             className="cursor-pointer w-[60px] h-[60px] flex items-center justify-center"
           >
             <GiSkills />
-          </Link>
+          </Link> */}
           <Link
             to="services"
             activeClass="active"
