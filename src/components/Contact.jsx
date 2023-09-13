@@ -31,7 +31,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "service_g7vclny",
-        "template_jcaz98a",
+        "template_vxjwiw8",
         form.current,
         "yVkI9W5o08BIJFutr"
       )
@@ -88,13 +88,13 @@ const Contact = () => {
           >
             <input
               type="email"
-              name="user_email"
+              name="email"
               className=" focus:text-black placeholder-font-bold font-bold font-mono dark:text-white border-yy dark:border-accent bg-transparent border-b py-3 outline-none w-full placeholder:text-white placeholder:dark:text-white focus:dark:border-accent focus:border-blue-700 transition-all"
               placeholder="Your email"
             />
             <input
               type="text"
-              name="user_name"
+              name="name"
               className="focus:border-blue-500 placeholder-font-bold font-bold font-mono dark:text-white border-yy dark:border-accent text-black bg-transparent border-b py-3 outline-none w-full placeholder:text-white placeholder:dark:text-white focus:dark:border-accent  transition-all"
               placeholder="Your name"
             />

@@ -16,14 +16,8 @@ import Skills  from "./components/Skills";
 const App = () => {
   return (
     <div className="bg-ww  dark:bg-site  overflow-hidden bg-cover bg-no-repeat">
-      <Header />
-      <Banner />
-      <Nav />
-      <About />
-      
-      <Services />
-      <Contact />
-      <PortfolioFooter />
+    <p>hii</p>
+    
   
 
     </div>
